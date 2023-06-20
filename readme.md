@@ -30,7 +30,7 @@ To complete the tests in this lab, you will need to overwrite some styles depend
 
 ### Less than 768px
 
-- [ ] Update the `header` element so that instead of two columns it is set to have one.
+- [x] Update the `header` element so that instead of two columns it is set to have one.
 - [X] Update the `main` element so that instead of two columns it is set to have one.
 - [?] Change the `gap` on the `main` element so that it has a gap between each row of `50px`. The gap between columns should be `0`.
 - [x] Update the `footer` element so it has a padding of `25px` all around.
