@@ -2,7 +2,57 @@
   Google Fonts
   https://fonts.google.com/specimen/Righteous
 */
+
+@media(min-width:768px) and (max-width:1279px) {
+  .splash {
+    display: none;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width:768px) {
+  main {
+    grid-column: 1;
+    width: 90%;
+    row-gap: 50px;
+    gap: 0;
+  }
+
+  .splash {
+    display: none;
+  }
+
+  header {
+    grid-column: 1;
+  }
+
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+  footer h4 {
+    border-bottom: none;
+  }
+
+}
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 
 /* General styles */
 
