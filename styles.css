@@ -183,6 +183,11 @@ footer a:hover {
 
   @media(max-width: 768px) {
 
+    .splash {
+
+      display: none;
+    }
+
     header {
 
       grid-template-columns: 1fr;
@@ -214,7 +219,7 @@ footer a:hover {
 
     footer h4 {
 
-      border-bottom: 0%;
+      border-bottom: none;
 
     }
   }
