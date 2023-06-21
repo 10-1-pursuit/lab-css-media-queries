@@ -17,7 +17,7 @@ TekNews has a great looking website but it was only built for the desktop! Updat
 1. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
 
 ## Instructions
-
+ 
 To complete the tests in this lab, you will need to overwrite some styles depending on the width of the screen. If you're unclear about any of the instructions below, remember that you can check the test file to see what exactly is being tested.
 
 ### 768px to 1279px
