@@ -76,6 +76,7 @@ nav a:hover {
   background-position: 50% 50%;
   background-size: 100%;
   border-bottom: 5px solid #de6b48;
+  /* display: none; */
 }
 
 .splash h2 {
@@ -137,7 +138,8 @@ footer {
 }
 
 footer h4 {
-  border-bottom: 1px solid #de6b48;
+  /* border-bottom: 1px solid #de6b48; */
+  border-bottom: none;
   margin: 0;
   max-width: 250px;
   padding-bottom: 5px;
@@ -145,7 +147,7 @@ footer h4 {
 
 footer ul {
   color: #de6b48;
-  list-style: square;
+  list-style: none;
   padding-left: 1rem;
 }
 
@@ -163,3 +165,50 @@ footer a:hover {
 }
 
 /* Media queries */
+
+@media(min-width: 768px) and(max-width:1279){
+
+
+   .splash{
+    display: none;
+   }
+
+   main{
+    width: 90%;
+   }
+   footer{
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media(max-width: 768px){
+
+  /* body{
+    background-color: red;
+  } */
+
+  header{
+    grid-template-columns: 1fr ;
+  }
+
+  main{
+    grid-template-columns: 1fr;
+    gap: 50px 0;
+  }
+
+
+  footer{
+    padding: 25px;
+    text-align: center;
+    /* grid-template-columns: 1fr 1fr; */
+  }
+
+  footer ul {
+
+    list-style-type: none;
+  }
+  footer h4{
+    border-bottom: none;
+    margin: 0 auto;
+  }
+}
