@@ -72,6 +72,7 @@ nav a:hover {
 */
 
 .splash {
+  display: none;
   background-image: url("./images/ales-nesetril-unsplash.jpg");
   background-position: 50% 50%;
   background-size: 100%;
@@ -91,11 +92,12 @@ nav a:hover {
 main {
   margin: 3rem auto;
 
-  width: 70%;
+  width: 90%;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 3rem;
+  gap: 50px 0;
+  
 }
 
 /* Articles */
@@ -130,23 +132,29 @@ aside a:hover {
 footer {
   background: #040f16;
   color: #ececec;
-  padding: 50px 15% 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 footer h4 {
-  border-bottom: 1px solid #de6b48;
+  
   margin: 0;
   max-width: 250px;
   padding-bottom: 5px;
+  align-items: center;
 }
 
 footer ul {
   color: #de6b48;
   list-style: square;
   padding-left: 1rem;
+  list-style: none;
 }
 
 footer ul li {
