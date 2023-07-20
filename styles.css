@@ -164,16 +164,43 @@ footer a:hover {
 
 /* Media queries */
 /* 768px to 1279px */
-@media only screen and (min-width: 768px) and (max-width: 1279px){
-  .splash{
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .splash {
     display: none;
   }
-  main{
+
+  main {
     width: 50%;
   }
 
   footer {
     grid-template-columns: repeat(2, 1fr)
   }
+}
 
+/* Less than 768px */
+@media (max-width: 768px) {
+  header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+    column-gap: 0px;
+  }
+
+  footer {
+    padding: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+
+  footer section ul {
+    list-style: none;
+  }
+
+  footer h4 {
+    border-bottom: none;
+  }
 }
